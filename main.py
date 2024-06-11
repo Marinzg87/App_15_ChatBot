@@ -27,10 +27,6 @@ class ChatbotWindow(QMainWindow):
         self.show()  # method of QMainWindow Class
 
 
-class Chatbot:
-    pass
-
-
 # initialise the application
 app = QApplication(sys.argv)
 main_window = ChatbotWindow()
